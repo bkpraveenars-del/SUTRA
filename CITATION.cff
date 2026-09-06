@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "sutra: Variance-Preserving Stage-Wise Multi-Environment Trial Analysis"
+version: 0.1.0
+abstract: >-
+  Spatially adjusted genotype means from two-dimensional tensor-product
+  P-splines are passed to a stage-wise linear mixed model together with their
+  full error variance-covariance matrix, rather than as bare point estimates.
+authors:
+  - family-names: Kumar
+    given-names: Praveen
+    email: bkpraveenars@gmail.com
+    affiliation: >-
+      Department of Genetics and Plant Breeding, College of Agriculture,
+      Agriculture University Jodhpur, Rajasthan, India
+license: GPL-3.0-or-later
+repository-code: "https://github.com/BKPRAVEEN/sutra"
+keywords:
+  - plant breeding
+  - multi-environment trials
+  - linear mixed models
+  - P-splines
+  - genotype-by-environment interaction

@@ -1,0 +1,27 @@
+Package: sutra
+Type: Package
+Title: Variance-Preserving Stage-Wise Multi-Environment Trial Analysis
+Version: 0.1.0
+Authors@R: person(given = "Praveen", family = "Kumar",
+                  email = "bkpraveenars@gmail.com",
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "0000-0000-0000-0000"))
+Description: Spatially adjusted genotype means from two-dimensional
+    tensor-product P-splines are passed to a stage-wise linear mixed model
+    together with their full error variance-covariance matrix, rather than as
+    bare point estimates. The second stage whitens that structure by spectral
+    decomposition on the genotype-contrast space, so that a standard solver
+    reproduces the fully efficient weighted analysis of Piepho and others
+    (2012) <doi:10.1002/bimj.201100219>. Unweighted and diagonally weighted
+    analyses are provided for direct comparison, a simulation engine with known
+    truth is included for validation, and diagnostics report when weighting is
+    likely to help or to harm.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: SpATS (>= 1.0.18), MASS, stats, methods
+Suggests: testthat (>= 3.0.0), lme4
+URL: https://github.com/BKPRAVEEN/sutra
+BugReports: https://github.com/BKPRAVEEN/sutra/issues
+RoxygenNote: 7.3.1
+Config/testthat/edition: 3
