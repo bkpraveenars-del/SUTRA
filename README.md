@@ -1,5 +1,7 @@
 # sutra — Stage-wise Unified Trait–Reaction-norm Architecture
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22546036.svg)](https://doi.org/10.5281/zenodo.22546036)
+
 A variance-preserving analytical continuum for multi-environment trial (MET)
 analysis. Spatially adjusted genotype means are passed to a stage-wise linear
 mixed model **together with their error variance–covariance structure**, rather
@@ -7,6 +9,11 @@ than as bare point estimates.
 
 Status: **Modules 1 and 2 implemented and validated. Modules 3 and 4 not yet
 written.** Every claim below is reproducible from `inst/scripts`.
+
+## Citation
+
+Kumar, P. (2026). *SUTRA: Variance-Preserving Stage-Wise Multi-Environment
+Trial Analysis*. Zenodo. https://doi.org/10.5281/zenodo.22546036
 
 ## Install
 
